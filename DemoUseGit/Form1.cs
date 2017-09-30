@@ -26,15 +26,15 @@ namespace DemoUseGit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            int hieu = 0;
             int soThuNhat = int.Parse(textEdit1.Text);
             int soThuHai = int.Parse(textEdit2.Text);
-            if (soThuHai != 0)
+            if (soThuNhat >= soThuHai)
             {
-                int tong = soThuNhat - soThuHai;
+                hieu = soThuNhat - soThuHai;
             }
             
-            textEdit3.Text = tong.ToString();
+            textEdit3.Text = hieu.ToString();
         }
     }
 }
