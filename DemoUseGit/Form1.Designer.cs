@@ -32,6 +32,7 @@
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
@@ -50,28 +51,38 @@
             // 
             this.textEdit1.Location = new System.Drawing.Point(64, 30);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(100, 20);
+            this.textEdit1.Size = new System.Drawing.Size(191, 20);
             this.textEdit1.TabIndex = 1;
             // 
             // textEdit2
             // 
             this.textEdit2.Location = new System.Drawing.Point(64, 72);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(100, 20);
+            this.textEdit2.Size = new System.Drawing.Size(191, 20);
             this.textEdit2.TabIndex = 2;
             // 
             // textEdit3
             // 
             this.textEdit3.Location = new System.Drawing.Point(64, 120);
             this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(100, 20);
+            this.textEdit3.Size = new System.Drawing.Size(191, 20);
             this.textEdit3.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(173, 189);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(82, 28);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Tru";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.textEdit3);
             this.Controls.Add(this.textEdit2);
             this.Controls.Add(this.textEdit1);
@@ -91,6 +102,7 @@
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.TextEdit textEdit2;
         private DevExpress.XtraEditors.TextEdit textEdit3;
+        private System.Windows.Forms.Button button1;
     }
 }
 
